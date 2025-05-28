@@ -1241,7 +1241,7 @@ blockquote {
 	}
 
 	.site-header.scrolled .menu-main-container {
-		top: 150px;
+		top: 120px;
 	}
 
 	.site-header .menu-toggle.toggled-on+.menu-main-container {
@@ -1249,7 +1249,7 @@ blockquote {
 	}
 
 	.site-header.scrolled .menu-toggle.toggled-on+.menu-main-container {
-		height: calc(100vh - 150px);
+		height: calc(100vh - 120px);
 	}
 
 	/* position of dropdown menu - styles ends here */
