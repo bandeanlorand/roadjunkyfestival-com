@@ -1,7 +1,7 @@
 /*
 Theme Name: RJOasis
 Theme URI: http://underscores.me/
-Author: Bettina Helmst�dt / Zahara MH
+Author: Bettina Helmst dt / Zahara MH
 Author URI: http://zaharamh.com
 Description: Description
 Version: 1.0.4
@@ -903,7 +903,7 @@ button.menu-toggle:hover {
 .site-branding {
 	width: 100%;
 	padding: 24px 28px 24px 12px;
-	border-bottom: 1px solid #ccc;
+	/* border-bottom: 1px solid #ccc; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
