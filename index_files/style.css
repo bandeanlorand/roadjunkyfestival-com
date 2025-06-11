@@ -831,7 +831,7 @@ a:active {
 	padding: 0;
 	position: absolute;
 	right: 14px;
-	top: calc(50% - 42px);
+	top: calc(50% - 16px);
 }
 
 .site-header.scrolled .menu-toggle {
