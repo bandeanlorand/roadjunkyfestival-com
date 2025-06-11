@@ -151,6 +151,7 @@ sub {
 
 img {
 	border: 0;
+	filter: contrast(1.11);
 }
 
 svg:not(:root) {
@@ -296,6 +297,7 @@ h6 {
 
 p {
 	margin-bottom: 1.5em;
+	font-weight: 500;
 }
 
 dfn,
@@ -565,7 +567,7 @@ a:active {
 	text-align: left;
 	line-height: 1em;
 	padding-top: 0.1em;
-	padding: 0 8px 0 10px;
+	padding: 0 0.3rem 0 0.3rem;
 	font-weight: 800;
 	z-index: 2;
 
@@ -578,10 +580,10 @@ a:active {
 
 .site-header h2 {
 	font-family: Cambria, Georgia, serif;
-	font-size: 0.9rem;
+	font-size: 0.84rem;
 	font-style: italic;
 	margin: -1.5rem 0 0.5rem;
-	padding: 0 0.5rem;
+	padding: 0 0.3rem 0 0.3rem;
 	text-align: left;
 }
 
@@ -593,6 +595,7 @@ a:active {
 .site-header.scrolled .tag {
 	height: 0;
 	opacity: 0;
+
 }
 
 
@@ -620,6 +623,9 @@ a:active {
 .banner-clip-mask {
 	position: relative;
 	z-index: 0;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
 }
 
 .banner-clip-mask svg {
@@ -629,6 +635,7 @@ a:active {
 	bottom: -7vw;
 	width: 100%;
 	left: 0;
+	display: none;
 }
 
 .site-content img.banner {
@@ -638,6 +645,7 @@ a:active {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
+	display: flex;
 }
 
 
@@ -656,6 +664,7 @@ a:active {
 	padding: 7px 8px;
 	width: 100%;
 	font-weight: 500;
+	margin-bottom: 24px;
 }
 
 .site-main {
@@ -1349,7 +1358,7 @@ blockquote {
 	.main-navigation {
 		clear: none;
 		float: left;
-		margin: 177px 32px 0 0;
+		margin: 140px 32px 0 0;
 		width: 220px;
 		z-index: 1;
 	}
@@ -1372,8 +1381,9 @@ blockquote {
 		/* width: 100%; */
 		/* position: absolute; */
 		padding: 8px 24px 8px 24px;
-		font-size: 1.15rem;
-		text-align: left;
+		font-size: 1.14rem;
+		text-align: center;
+		display: block;
 	}
 
 
@@ -1416,7 +1426,7 @@ blockquote {
 	.site-content img.banner {
 		padding-left: 0;
 		float: right;
-		width: calc(100% - 301px) !important;
+		width: calc(100% - 0px) !important;
 		/* margin-bottom: -150px; */
 		margin-top: -20px;
 		margin-right: 24px;
@@ -1685,9 +1695,11 @@ ul.bottom-links .rjring div a img{
 
 		left: 0px;
 	}
-
+.banner-clip-mask{
+	margin-right: 0;
+}
 	.site-content img.banner {
-		width: calc(100% - 276px) !important;
+		width: calc(100% - 0px) !important;
 		margin-top: 10px;
 		margin-right: 24px;
 		margin-bottom: 0px;
