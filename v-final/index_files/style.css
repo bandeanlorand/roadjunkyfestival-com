@@ -1451,7 +1451,6 @@ blockquote {
 		padding-left: 0;
 		float: right;
 		width: calc(100% - 0px) !important;
-		/* margin-bottom: -150px; */
 		margin-top: 0px;
 		margin-right: 24px;
 		margin-left: 0;
@@ -1737,7 +1736,6 @@ blockquote {
 
 	.site-content img.banner {
 		width: calc(100% - 0px) !important;
-		margin-top: 10px;
 		margin-right: 24px;
 		margin-bottom: 0px;
 		margin-left: 0;
@@ -1906,7 +1904,7 @@ blockquote {
 }
 
 .widget-title {
-	font-family: DowncomeRegular, sans-serif;
+	/* font-family: DowncomeRegular, sans-serif; */
 	margin: 0;
 }
 
